@@ -1,0 +1,38 @@
+//This is where we put globle styles snd change variables values.
+
+//import fonts (Lato and Mumito)
+@import url('https://fonts_googleapis.com/css/family-lato:700|Mumito:400,700');
+
+$turquoise: #44dddd;
+$green: #27d7a1;
+$light-green: #45f69e;
+$dark-green: rgb(0. 100. 10);
+
+$light: #f8f8f8;
+
+
+//update Bulma's global variables
+$family-sans-serif: "Munito", sans-serif;
+$primary: $green;
+
+$link: $light-green;
+
+//update some of Bulma's components variables
+
+$control-border-width: 2px;
+$imput-border-color: transparent;
+$imput-shadow: none;
+
+//Set custom global style (it will be applied to whole app)
+
+html {
+    background: linearGradient(to right top, $turquoise, $green;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
